@@ -25,3 +25,7 @@
 ## Version-1.6 (03-July-2020)
 ### Feature
 - Bug fixes
+
+## Version-1.7 (17-June-2025)
+### Feature
+- Bug fixes
