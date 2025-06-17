@@ -1,4 +1,4 @@
-#JWTweak-v1.6
+#JWTweak-v1.7
 
 import os
 import jwt
@@ -6,6 +6,7 @@ import re
 import base64
 import math
 import json
+import sys
 from Cryptodome.Signature import PKCS1_v1_5, DSS, pss
 from Cryptodome.Hash import SHA256, SHA384, SHA512
 from Cryptodome.PublicKey import RSA, ECC
@@ -774,7 +775,7 @@ def jwtWeak():
 #######################################################################################
 
         elif choice=='10':
-            exit()    
+            sys.exit()    
         else:
             print("Please select the correct number")
             print("Please try again\n\n")
